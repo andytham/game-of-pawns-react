@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <!--
+      manifest.json provides metadata used when your web app is added to the
+      homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
+    -->
+  
+
+    <head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand:400,500,700" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
+  <title>Game of Pawns - Andy Tham</title>
+</head>
+  </head>
+  <body>
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+    <header>
+    <h1> GAME OF PAWNS </h1>
+    <h2> Created by Andy Tham </h2>
+  </header>
+
+  <form id="landing-page">
+    <div> Please Enter Your Names </div>
+    <input id="player1" type="text" placeholder="Player 1's Name">
+    <input id="player2" type="text" placeholder="Player 2's Name">
+    <input id="continue" type="button" value="Continue">
+  </form>
+  <div id="current-player"> player's turn </div>
+  <div id="container">
+    <div id="board" class="clearfix"> </div>
+    <div id="history-container">
+      <div id="history-title">History</div>
+      <div id="history-container2">
+        <div id="history1" class="discard"></div>
+        <div id="history2" class="discard"></div>
+      </div>
+  </div>
+</div>
+
+  <div id="win-page">
+    <div id="win-text">u r a winner</div>
+    <div id="restart"> Restart? </div>
+  </div>
+  <div><input id="history-button" type="button" value="display history"></div>
+  <!-- <input id="wt" type="button" value="win test"> -->
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </body>
+</html>
